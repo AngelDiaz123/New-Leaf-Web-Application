@@ -9,7 +9,7 @@
 <body>
 
 <div id="container">
-	<h1>HAHAHAHAHAHA</h1>
+	<h1>about</h1>
 	<?php
 		$query = $this->db->query('SELECT name, title, email FROM my_table');
 
