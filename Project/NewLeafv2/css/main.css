@@ -1,0 +1,20 @@
+/* gets the footer to the bottom of the page */
+[data-role=page] {
+	height: 100% !important; 
+	position:relative !important;
+}
+
+[data-role=footer] {
+	bottom:0; position:absolute !important; 
+	top: auto !important; width:100%;
+}
+
+body {
+	font-size: 1em;
+}
+
+.logo {
+	width: 50%;
+	margin-left: 25%;
+	margin-bottom: -5%;
+}
