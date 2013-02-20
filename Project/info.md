@@ -1,4 +1,4 @@
-√live site 
+live site 
 newleaf.angelldiaz.com
 
 info into live site database must ssh into database
