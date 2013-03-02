@@ -1,0 +1,375 @@
+body {
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 1em;
+   line-height: 1.45em;
+}
+
+.wrapper {
+    background-image: url("../images/az_subtle.png");
+   
+}
+
+h1 {
+	font-family: 'Merienda', cursive;
+}
+
+.error {
+   color: red;
+   text-align: center;
+}
+
+.copyFooter {
+   font-size: .875em;
+   font-weight: normal;
+	overflow: hidden;
+}
+
+.copyInfo {
+	color: white;
+	margin-left: 10px;
+	float: left;
+}
+
+.myCopy {
+	color: white;
+	margin-right: 10px;
+	float: right;
+}
+
+#info {
+   margin-top: 5%;
+   margin-left: 10%;
+   width: 80%;
+}
+
+#info h3 {
+   color: #51af58;
+   text-overflow: ellipsis;
+   overflow: visible;
+   white-space: normal;
+   margin-right: 10%;
+   margin-left: 10%;
+   font-size: 1.5em;
+   font-style: italic;
+}
+
+#info p {
+	text-overflow: ellipsis;
+	overflow: visible;
+	white-space: normal;
+	margin-right: 10%;
+	margin-left: 10%;
+	font-size: 1.2em;
+	color: black;
+}
+
+#contact {
+	clear: both;
+	padding-bottom: 5%;
+}
+
+#contact a {
+	color: green;
+}
+
+#creator {
+	padding-top: 5%;
+}
+
+#toa {
+	padding: 2% 5% 2% 5%;
+	width: 75%;
+	margin-top: 5%;
+	margin-left: 8%;
+}
+
+#toa h2{
+   color: #51af58;
+   font-size: 1.5em;
+}
+
+#toa h3 {
+   font-style: italic;
+   font-size: 1.15em;
+}
+
+#moreInfo h3 {
+   line-height: 1.4em;
+   margin-top: 10%;
+   font-size: 2em;
+}
+
+#moreInfo li {
+   font-style: italic;;
+   font-size: 1.25em;
+}
+
+@media only screen 
+and (min-width : 768px) {
+	#logo {
+		float: left;
+		width: 45%;
+		margin-left: 5%;
+	}
+
+	#logo img {
+		width: 75%;
+	}
+
+	.login {
+		width: 40%;
+		margin-top: 4%;
+		margin-right: 8%;
+		float: right;
+	}
+
+	#navHeader {
+      margin-bottom: 10%;
+	}
+
+	#track, #register, #see, #edit {
+			height: 100% !important; 
+			position:relative !important;
+	}
+
+	#chart {
+		margin-left: 10%;
+		width: 80%;
+		height: 400px;
+	}
+	
+	#welcome .ui-footer, #track .ui-footer, #register .ui-footer, #see .ui-footer, #edit .ui-footer, #about .ui-footer {
+		bottom:0;
+		position:absolute !important; 
+		top: auto !important; 
+		width:100%;
+	}
+
+	#moreInfo {
+		clear: both;
+		float: left;
+		width: 35%;
+		margin-left: 8%;
+	}
+
+	#moreInfo p {
+		font-family: 'Merienda', cursive;
+		font-style: italic;
+		font-size: 1.1em;
+	}
+
+   #clipboard {
+   }
+
+	#graphImg {
+		margin-left: 60%;
+		float: left;
+      margin-top: -10%;
+	}
+
+   .aboutLink {
+      text-decoration: none;
+      color: white;
+      margin-left: 25%;
+   }
+
+   .termsLink {
+      text-decoration: none;
+      color: white;
+      margin-left: 25%;
+   }
+
+   .aboutLink a:link {
+      text-decoration: none;
+      color: white;
+   }
+
+   .aboutLink a:visited {
+      text-decoration: none;
+      color: white;
+   }
+
+   .aboutLink a:hover {
+      text-decoration: none;
+      color: #e1e9d8;
+   }
+
+   .aboutLink a:active {
+      text-decoration: none;
+      color: #e1e9d8;
+   }
+
+   .termsLink a {
+      text-decoration: none;
+      color: white;
+   }
+
+   .recipes {
+      width: 28%;
+      margin-left: 10%;
+      float: left;
+      overflow: hidden;
+      padding: 1%;
+      padding-left: 3%;
+      font-size: .875em;
+      background-color: #e1e9d8;
+      margin-top: 2%;
+      margin-bottom: 2%;
+   }
+
+   #editUser {
+      margin-bottom: 10%;
+   }
+
+   #deleteUser{
+      text-align: center;
+      color: red;
+   }
+
+}
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 765px) {
+
+	#welcome {
+		font-size: .65em;
+	}
+
+	#logo {
+		width: 85%;
+		margin-left: 5%;
+	}
+
+	#logo img {
+		width: 75%;
+	}
+
+	.login {
+		width: 85%;
+		margin-top: 4%;
+		margin-left:5%;
+	}
+
+	.header {
+		font-size: 1.5em;
+	}
+
+	.list {
+    	margin-top : 10%;
+	}
+
+	.logout {
+		font-size: .4em;
+	}
+
+	.myCopy {
+		display: none;
+	}
+
+	.copyFooter {
+		overflow: hidden;
+	}
+
+	#info p {
+		font-size: .94em;
+	}
+
+	#chart {
+		margin-left: 10%;
+		width: 80%;
+		height: 150px;
+	}
+
+	#moreInfo {
+		border-top: solid 1px;
+		clear: both;
+		float: left;
+		margin-top: 10%;
+		width: 90%;
+		margin-left: 10%;
+	}
+
+	#graphImg {
+		display: none;
+	}
+
+	.recipeImg {
+		width: 95%;
+	}
+
+   #regBtn {
+      margin-top: 5%;
+   }
+
+   .aboutLink {
+      text-decoration: none;
+      margin-left: 25%;
+   }
+
+   .termsLink {
+      text-decoration: none;
+      margin-left: 25%;
+   }
+
+   #welcome .ui-footer, #track .ui-footer, #register .ui-footer, #see .ui-footer {
+      bottom:0;
+      position:absolute !important; 
+      top: auto !important; 
+      width:100%;
+   }
+
+   .aboutLink {
+      text-decoration: none;
+      color: white;
+      margin-left: 25%;
+   }
+
+   .termsLink {
+      text-decoration: none;
+      color: white;
+      margin-left: 25%;
+   }
+
+   .aboutLink a:link {
+      text-decoration: none;
+      color: white;
+   }
+
+   .aboutLink a:visited {
+      text-decoration: none;
+      color: white;
+   }
+
+   .aboutLink a:hover {
+      text-decoration: none;
+      color: #e1e9d8;
+   }
+
+   .aboutLink a:active {
+      text-decoration: none;
+      color: #e1e9d8;
+   }
+
+   .termsLink a {
+      text-decoration: none;
+      color: white;
+   }
+
+   .recipes {
+      overflow: hidden;
+      padding: 1%;
+      padding-left: 5%;
+      font-size: .875em;
+      background-color: #e1e9d8;
+      margin-bottom: 10%;
+   }
+
+   #editUser {
+      margin-bottom: 20%;
+   }
+
+   #deleteUser{
+      color: red;
+   }
+}
